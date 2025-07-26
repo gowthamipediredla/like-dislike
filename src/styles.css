@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.buttons-container {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.like-button,
+.dislike-button {
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 10px;
+}
+
+/* Highlighted state when liked */
+.liked {
+  background-color: #0d6efd;
+  color: white;
+  border-color: #0d6efd;
+}
+.disliked {
+  background-color: #dc3545; /* red */
+  color: white;
+  border-color: #dc3545;
+}
+.like-dislike-wrapper {
+  text-align: center;
+  padding: 24px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.component-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
